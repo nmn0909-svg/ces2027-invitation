@@ -421,7 +421,7 @@ dialog img{width:100%}
 
 /* English text and signature proportions. */
 body{font-family:var(--display-en),system-ui,sans-serif}
-.hero-copy{max-width:690px}
+.hero-copy{max-width:1030px}
 .hero h1{font-size:clamp(3rem,5.6vw,5.1rem);letter-spacing:-.058em}
 .hero-copy p{max-width:488px}
 .pitch-date,.pitch-hours{white-space:nowrap}
@@ -455,11 +455,10 @@ body{font-family:var(--display-en),system-ui,sans-serif}
 
 
 /* Event title and approved company / consortium marks. */
-.hero h1.event-title{display:grid;gap:.15em;font-size:clamp(4.25rem,7.2vw,7.5rem);line-height:.94;letter-spacing:-.066em}
-.event-line{display:flex;align-items:baseline;flex-wrap:wrap;gap:.12em .24em}
-.event-lead{display:block;white-space:nowrap;font-size:.34em;line-height:1.08;letter-spacing:-.036em;color:var(--lime)}
+.hero h1.event-title{display:grid;gap:.08em;font-size:clamp(4.25rem,7.2vw,7.5rem);line-height:.94;letter-spacing:-.06em}
+.event-lead{display:block;white-space:nowrap;font-size:.32em;line-height:1.12;margin-bottom:.25em;letter-spacing:-.025em;color:var(--lime)}
 .event-name{display:block;white-space:nowrap}
-.event-pavilion{display:block;font-size:.34em;line-height:1.05;letter-spacing:-.036em;color:#edf6f0}
+.event-pavilion{display:block;font-size:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;white-space:nowrap}
 .hero-copy .hero-theme{max-width:none;margin-top:23px;font-size:clamp(1.05rem,1.65vw,1.42rem);line-height:1.2;font-weight:600;color:#eaf6ee;letter-spacing:-.023em}
 .hero-theme strong{color:var(--lime);font-weight:700}
 .theme-divider{display:inline-block;margin-inline:.18em;color:#b3cfbd}
@@ -513,9 +512,7 @@ body{font-family:var(--display-en),system-ui,sans-serif}
  .tiles{grid-template-columns:1fr}
 }
 @media(max-width:615px){
- .hero h1.event-title{font-size:clamp(3.65rem,15.6vw,5.35rem)}
- .event-line{display:grid;gap:.14em}
- .event-pavilion{font-size:.405em}
+ .hero h1.event-title{font-size:clamp(2rem,8.8vw,3.4rem)}
  .hero-copy .hero-theme{margin-top:16px;font-size:1.12rem}
  .hero-copy .hero-theme+p{margin-top:13px}
  .project-card>.project-title{font-size:1rem}
@@ -539,7 +536,7 @@ body{font-family:var(--display-en),system-ui,sans-serif}
     </picture>
     <div class="container">
       <div class="hero-copy">
-        <h1 id="invitation" class="event-title"><span class="event-line"><span class="event-lead">You&rsquo;re Invited to</span> <span class="event-name">CES 2027</span></span> <span class="event-pavilion">AX-Sprint Pavilion</span></h1>
+        <h1 id="invitation" class="event-title"><span class="event-lead">You&rsquo;re Invited to</span> <span class="event-name">CES 2027</span> <span class="event-pavilion">AX-Sprint Pavilion</span></h1>
         <p class="hero-theme">Environmental AI <span class="theme-divider" aria-hidden="true">·</span> <strong>14 Innovations</strong></p>
         <p>Meet 14 companies developing AI-powered environmental solutions at the <span class="nowrap">AX-Sprint</span> Pavilion. Explore their technologies and connect with potential partners at CES 2027.</p>
       </div>
